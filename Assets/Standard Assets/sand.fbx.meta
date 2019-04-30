@@ -1,17 +1,94 @@
 fileFormatVersion: 2
-guid: 8983021e68dcb447a9933e2e001acb42
+guid: 0cfd8878552ba4e8da04389ad03c52cc
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: Line01
-    400000: //RootNode
-    400002: Line01
-    2100000: 02___Default
-    2300000: Line01
-    3300000: Line01
-    4300000: Line01
-    9500000: //RootNode
+    100000: pCube1
+    100002: pCube10
+    100004: pCube11
+    100006: pCube12
+    100008: pCube13
+    100010: pCube14
+    100012: pCube15
+    100014: pCube16
+    100016: pCube17
+    100018: pCube2
+    100020: pCube3
+    100022: pCube4
+    100024: pCube5
+    100026: pCube6
+    100028: pCube7
+    100030: pCube8
+    100032: pCube9
+    100034: //RootNode
+    100036: transform1
+    100038: transform2
+    100040: transform3
+    100042: transform4
+    400000: pCube1
+    400002: pCube10
+    400004: pCube11
+    400006: pCube12
+    400008: pCube13
+    400010: pCube14
+    400012: pCube15
+    400014: pCube16
+    400016: pCube17
+    400018: pCube2
+    400020: pCube3
+    400022: pCube4
+    400024: pCube5
+    400026: pCube6
+    400028: pCube7
+    400030: pCube8
+    400032: pCube9
+    400034: //RootNode
+    400036: transform1
+    400038: transform2
+    400040: transform3
+    400042: transform4
+    2100000: seashell_texture
+    2100002: sand_texture
+    2300000: pCube12
+    2300002: pCube13
+    2300004: pCube14
+    2300006: pCube15
+    2300008: pCube16
+    2300010: pCube17
+    2300012: pCube2
+    2300014: pCube3
+    2300016: pCube4
+    2300018: pCube5
+    2300020: pCube6
+    2300022: pCube7
+    2300024: pCube8
+    3300000: pCube12
+    3300002: pCube13
+    3300004: pCube14
+    3300006: pCube15
+    3300008: pCube16
+    3300010: pCube17
+    3300012: pCube2
+    3300014: pCube3
+    3300016: pCube4
+    3300018: pCube5
+    3300020: pCube6
+    3300022: pCube7
+    3300024: pCube8
+    4300000: pCube2
+    4300002: pCube3
+    4300004: pCube4
+    4300006: pCube5
+    4300008: pCube6
+    4300010: pCube7
+    4300012: pCube8
+    4300014: pCube12
+    4300016: pCube13
+    4300018: pCube14
+    4300020: pCube15
+    4300022: pCube16
+    4300024: pCube17
+    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -87,7 +164,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

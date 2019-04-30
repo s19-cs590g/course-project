@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3fbd773728d5f4125957ed9f8222cf5e
+guid: 1c49dbdf202a14d8cbef46f1ac177797
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
@@ -23,6 +23,7 @@ ModelImporter:
     4300000: eyes
     4300002: great_white_shark
     4300004: Teath
+    9500000: //RootNode
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
@@ -99,7 +100,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

@@ -1,17 +1,15 @@
 fileFormatVersion: 2
-guid: 8983021e68dcb447a9933e2e001acb42
+guid: 852466e74b75c4c9db6a6a3216005dfb
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
-    100002: Line01
     400000: //RootNode
-    400002: Line01
-    2100000: 02___Default
-    2300000: Line01
-    3300000: Line01
-    4300000: Line01
-    9500000: //RootNode
+    2100000: boat_texture
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: pCube31
+    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -87,7 +85,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

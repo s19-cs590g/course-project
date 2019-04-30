@@ -1,17 +1,17 @@
 fileFormatVersion: 2
-guid: 8983021e68dcb447a9933e2e001acb42
+guid: 5b54c56ac0d94464cbab5425acc54531
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: Line01
-    400000: //RootNode
-    400002: Line01
-    2100000: 02___Default
-    2300000: Line01
-    3300000: Line01
-    4300000: Line01
-    9500000: //RootNode
+    100000: pCube24
+    100002: //RootNode
+    400000: pCube24
+    400002: //RootNode
+    2100000: initialShadingGroup
+    2100002: lambert2SG
+    2300000: pCube24
+    3300000: pCube24
+    4300000: pCube24
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -87,7 +87,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
