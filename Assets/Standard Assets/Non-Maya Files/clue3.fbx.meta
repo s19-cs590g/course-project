@@ -1,16 +1,14 @@
 fileFormatVersion: 2
-guid: f5f7d7c7f350d4d0f9d0eaf49ab98b8f
+guid: 6dbe8ad4926464cffb2d208121806b4a
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: boat_texture
+    2100000: Letter3_Mtl
     2300000: //RootNode
     3300000: //RootNode
-    4300000: pCube31
-    4300002: ship_fixed_geo
-    2186277476908879412: ImportLogs
+    4300000: DiaryPage2
   externalObjects: {}
   materials:
     importMaterials: 1

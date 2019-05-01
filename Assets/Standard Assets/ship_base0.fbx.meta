@@ -1,25 +1,14 @@
 fileFormatVersion: 2
-guid: 5b7f8eebf94f54ba190b6b9009434c9b
+guid: a96cfaa85371c486aab0dd215d38dbe3
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: pCube24
-    100002: pCube25
-    100004: pCylinder1
-    100006: //RootNode
-    100008: transform1
-    100010: transform2
-    400000: pCube24
-    400002: pCube25
-    400004: pCylinder1
-    400006: //RootNode
-    400008: transform1
-    400010: transform2
+    100000: //RootNode
+    400000: //RootNode
     2100000: boat_texture
-    2100002: lambert1
-    2300000: pCube25
-    3300000: pCube25
-    4300000: pCube25
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: ship_fixed_geo
   externalObjects: {}
   materials:
     importMaterials: 1
