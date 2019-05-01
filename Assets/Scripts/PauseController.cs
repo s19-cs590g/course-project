@@ -6,11 +6,11 @@ public class PauseController : MonoBehaviour
 {
     public Transform canvas;
 
-    // Update is called once per frame
     void Start() {
         canvas.gameObject.SetActive(false);
     }
 
+	// Update is called once per frame
     void Update() {
         if (Input.GetKeyDown(KeyCode.Escape)) {
             Pause();

@@ -12,7 +12,7 @@ public class CollisionTrigger : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+        //Debug.Log("pow pow");
 	}
 
 	public void OnPointerClick(PointerEventData data) {
@@ -20,7 +20,27 @@ public class CollisionTrigger : MonoBehaviour {
 	}
 
 	public void OnTriggerEnter(Collider other) {
-		Destroy(other.gameObject);
-		Debug.Log("OnTriggerEnter");
+        if (other.gameObject.CompareTag("key")) {
+			Destroy(other.gameObject);
+            // display info about key
+            Debug.Log("Destroying key.");
+        } else {
+            // reach into collided object and display UI canvas 
+            ClueController clue = other.GetComponent<ClueController>(); //.GetComponent<Canvas>();
+            Transform canvas = clue.canvas;
+            //Debug.Log(canvas.gameObject.activeInHierarchy);
+            canvas.gameObject.SetActive(true);
+			Debug.Log("Should show UI object");
+        }
 	}
+
+    public void OnTriggerExit(Collider other) {
+        // reach into collided object and display UI canvas 
+        ClueController clue = other.GetComponent<ClueController>(); //.GetComponent<Canvas>();
+        Transform canvas = clue.canvas;
+        //Debug.Log(canvas.gameObject.activeInHierarchy);
+        canvas.gameObject.SetActive(false);
+        Debug.Log("Should hide UI object");
+
+    }
 }
