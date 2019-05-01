@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class TestTrigger : EventTrigger {
+public class CollisionTrigger : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
@@ -15,11 +15,12 @@ public class TestTrigger : EventTrigger {
 		
 	}
 
-	public override void OnPointerClick(PointerEventData data) {
+	public void OnPointerClick(PointerEventData data) {
 		Debug.Log("OnPointerClick");
 	}
 
 	public void OnTriggerEnter(Collider other) {
+		Destroy(other.gameObject);
 		Debug.Log("OnTriggerEnter");
 	}
 }
