@@ -26,4 +26,12 @@ public class PauseController : MonoBehaviour
             Time.timeScale = 1;
         }
     }
+
+    public void ToggleTime() {
+        if (Time.timeScale > 0f) {
+            Time.timeScale = 0f;
+        } else {
+            Time.timeScale = 1f;
+        }
+    }
 }
